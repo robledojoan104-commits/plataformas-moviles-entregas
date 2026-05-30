@@ -40,5 +40,6 @@ p.fuente.parrafo{
 }
 
 p.novelas.parrafo span.complicado{
+    font-weight: bold;
     color: #C62 !important; 
 }
