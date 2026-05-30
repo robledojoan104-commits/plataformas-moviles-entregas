@@ -1,0 +1,44 @@
+h1.titulo {
+font-size: 2rem;
+text-align: center;
+}
+
+p#primer-parrafo.importante.parrafo{
+    font-family: serif;
+}
+
+p.novelas.parrafo{
+    font-family: serif;
+}
+
+p.fuente.parrafo{
+    font-family: serif;
+}
+
+p#primer-parrafo.importante.parrafo{
+    color: #cee;
+}
+
+p#primer-parrafo.importante.parrafo em{
+    color: #933;
+}
+
+a{
+    outline: 1px solid #333
+}
+
+p.fuente.parrafo{
+    opacity: 100%;
+}
+
+p{
+    color: rgba(190, 120, 240, 0.6);
+}
+
+p.fuente.parrafo{
+    color: #000;
+}
+
+p.novelas.parrafo span.complicado{
+    color: #C62 !important; 
+}
