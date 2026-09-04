@@ -1,0 +1,47 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #dc3545;
+    color: white;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+.card-pokemon {
+    transition: transform 0.2s;
+}
+
+.card-pokemon:hover {
+    transform: translateY(-5px);
+}
+
+.card-pokemon img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    margin: auto;
+}
+
+.pokemon-tipo {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 3px;
+    border-radius: 20px;
+    background-color: #e9ecef;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.movimientos {
+    max-height: 180px;
+    overflow-y: auto;
+}
+
+#spinner {
+    min-height: 150px;
+}
